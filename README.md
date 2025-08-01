@@ -37,5 +37,7 @@ The solution for all of this will be done on GitHub.
 **Bonus 2.1**: Using a multistage build would be a plus.
 
 kubectl apply -f backend/deployment.yaml
+
 kubectl apply -f frontend/deployment.yaml
+
 kubectl apply -f ingress.yaml
